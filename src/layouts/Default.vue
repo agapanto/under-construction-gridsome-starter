@@ -20,27 +20,44 @@ export default {
 
 
 <style lang="scss">
-body, html {
-  height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Biryani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
 
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+body{
+  background-image: url('~@/assets/images/shattered-background.png');
+  background-color: #4d0059 !important;
+  color: white !important;
 }
 
 #app {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  font-family: 'Biryani', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
 }
 
-#content-wrapper {
-  flex: 1 0 auto;
-  max-width: 950px;
-  width: 90vw;
-  margin: 0 auto;
+h1 {
+  font-family: 'Bungee', cursive;
+}
+
+a {
+  // color: lighten(#878afd, 8) !important;
+  color: lighten(#4DC1EA, 12) !important;
+}
+
+a:hover {
+  color: lighten(#878afd, 100) !important;
+  text-decoration: underline;
+}
+
+.hello, footer {
+  text-shadow: 1px 1px 1px black;
+}
+
+.social-icons {
+  font-family: 'Bungee', cursive;
+  text-shadow: 1px 1px 1px black;
 }
 </style>
