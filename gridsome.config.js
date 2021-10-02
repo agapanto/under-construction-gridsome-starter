@@ -3,18 +3,18 @@ module.exports = {
   siteDescription: 'A starter project for under construction websites built with Gridsome and Bootstrap.',
   siteUrl: 'https://under-construction-demo.agapanto.cloud',
   plugins: [
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'blog/**/*.md',
-        typeName: 'BlogPost',
-        resolveAbsolutePaths: true,
-        remark: {
-          externalLinksTarget: '_blank',
-          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-        },
-      },
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'blog/**/*.md',
+    //     typeName: 'BlogPost',
+    //     resolveAbsolutePaths: true,
+    //     remark: {
+    //       externalLinksTarget: '_blank',
+    //       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+    //     },
+    //   },
+    // },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
