@@ -1,15 +1,9 @@
 <template>
-  <footer class="page-footer font-small teal py-4">
-    <div class="footer-copyright text-center">Designed and coded by:
-      <a target="_blank" rel="noopener" href="https://loke.dev/"> Loke Carlsson</a>
-    </div>
+  <footer class="mt-4">
+    <a href="https://github.com/agapanto/under-construction-gridsome-starter">under-construction-gridsome-starter</a> developed by<br>
+    <a href="https://agapanto.cl">agapanto comunicación digital</a>
   </footer>
 </template>
 
 <style lang="scss">
-footer {
-  width: 100%;
-  margin-top: 6rem;
-  background-color: #f5f5f5;
-}
 </style>
