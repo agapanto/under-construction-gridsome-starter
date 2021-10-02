@@ -1,5 +1,5 @@
 {
-  "name": "under-construction-gridsone-starter",
+  "name": "under-construction-gridsome-starter",
   "private": true,
   "scripts": {
     "build": "gridsome build",
