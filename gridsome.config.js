@@ -1,7 +1,7 @@
 module.exports = {
-  siteName: 'Gridsome starter bootstrap',
-  siteDescription: 'A starter project for Gridsome with Bootstrap and some other useful tools.',
-  siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
+  siteName: 'under construction gridsome starter',
+  siteDescription: 'A starter project for under construction websites built with Gridsome and Bootstrap.',
+  siteUrl: 'https://under-construction-demo.agapanto.cloud',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
