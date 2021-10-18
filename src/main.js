@@ -17,7 +17,10 @@ import {
   faAirbnb,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
-import { faAt } from '@fortawesome/free-solid-svg-icons'
+import {
+  faAt,
+  faUserCircle,
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import checkIfMobile from './mixins/checkIfMobile'
@@ -33,6 +36,7 @@ library.add(faYoutube)
 library.add(faTwitch)
 library.add(faAirbnb)
 library.add(faAt)
+library.add(faUserCircle)
 library.add(faWhatsapp)
 
 export default function (Vue, { router, head, isClient }) {
