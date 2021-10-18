@@ -21,25 +21,39 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Biryani&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-body{
-  background-image: url('~@/assets/images/shattered-background.png');
-  background-color: #4d0059 !important;
-  color: white !important;
+$purple: #2c172f;
+
+html {
+  overflow-y:scroll;
 }
 
+body {
+  &.bg-shattered {
+    background-image: url('~@/assets/images/shattered-background.png');
+    background-color: #4d0059 !important;
+    color: white !important;
+    text-shadow: 0.06rem 0.1rem 0.12rem $purple;
+  }
+
+  &.bg-purple {
+    background-color: $purple !important;
+    color: white !important;
+  }
+}
+
+
 #app {
-  font-family: 'Biryani', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
 }
 
 h1 {
-  font-family: 'Bungee', cursive;
+  font-family: 'Bungee', sans-serif;
 }
 
 a {
@@ -53,11 +67,16 @@ a:hover {
 }
 
 .hello, footer {
-  text-shadow: 1px 1px 1px black;
 }
 
 .social-icons {
-  font-family: 'Bungee', cursive;
-  text-shadow: 1px 1px 1px black;
+  font-family: 'Bungee', sans-serif;
+}
+
+nav, .btn {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: -0.16rem;
 }
 </style>
