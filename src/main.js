@@ -43,4 +43,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome-icon', FontAwesomeIcon)
   Vue.mixin(checkIfMobile)
+  head.bodyAttrs = { class: 'bg-shattered' }
+  // head.bodyAttrs = { class: 'bg-purple' }
 }
