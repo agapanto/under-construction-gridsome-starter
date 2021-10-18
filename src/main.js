@@ -1,7 +1,6 @@
 import DefaultLayout from '~/layouts/Default.vue'
 
-import BootstrapVue from 'bootstrap-vue'
-import * as $ from 'jquery'
+import "bootstrap/dist/css/bootstrap.min.css"
 import './assets/styles/main.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
