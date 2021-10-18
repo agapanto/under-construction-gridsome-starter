@@ -40,7 +40,6 @@ library.add(faUserCircle)
 library.add(faWhatsapp)
 
 export default function (Vue, { router, head, isClient }) {
-  Vue.use(BootstrapVue)
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome-icon', FontAwesomeIcon)
   Vue.mixin(checkIfMobile)
