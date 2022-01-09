@@ -23,7 +23,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import checkIfMobile from './mixins/checkIfMobile'
+// import checkIfMobile from './mixins/checkIfMobile'
 
 library.add(faFacebookF)
 library.add(faInstagram)
@@ -42,7 +42,7 @@ library.add(faWhatsapp)
 export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome-icon', FontAwesomeIcon)
-  Vue.mixin(checkIfMobile)
+  // Vue.mixin(checkIfMobile)
   head.bodyAttrs = { class: 'bg-shattered' }
   // head.bodyAttrs = { class: 'bg-purple' }
 }
